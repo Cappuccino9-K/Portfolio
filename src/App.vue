@@ -1,12 +1,14 @@
 <template>
   <div class="container">
     <h1>{{ message }}</h1>
-    <div class="bg-red">asdssasd</div>
+    <div class="btn btn-primary bg-danger border border-none">HaaI</div>
   </div>
 </template>
 
 <script setup>
 import { ref } from 'vue'
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 // 반응형 데이터 정의
 const message = ref('Hello, World!')
