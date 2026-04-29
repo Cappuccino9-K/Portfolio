@@ -11,6 +11,7 @@
     "type-check": "vue-tsc --build"
   },
   "dependencies": {
+    "'": "file:awesome.me/kit-5c1930c2ee/icons'",
     "@fortawesome/fontawesome-svg-core": "^7.2.0",
     "@fortawesome/free-brands-svg-icons": "^7.2.0",
     "@fortawesome/free-regular-svg-icons": "^7.2.0",

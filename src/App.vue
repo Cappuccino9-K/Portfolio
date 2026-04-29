@@ -1,11 +1,15 @@
 
 
 <template>
-	<FontAwesomeIcon :icon="faVuejs" style="color: rgb(99, 230, 190);" />
-	ad
-	<FontAwesomeIcon :icon="faUser" style="color: rgb(99, 230, 190);" />
-	a
-	<i class="fa-solid fa-user" style="color: rgb(99, 230, 190);"></i>
+	
+  <div class="nav">
+    <font-awesome-icon icon="fa-solid fa-chevron-left" />
+    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+    <font-awesome-icon icon="fa-solid fa-bars" />
+  </div>
+
+
+
 			<div id="wrapper" class="divided">
 
 				
@@ -118,10 +122,6 @@ import { ref, onMounted } from 'vue'
 import $ from 'jquery'
 import './assets/css/main.css'
 import './assets/css/noscript.css'
-import './assets/css/fontawesome-all.min.css'
-// Font Awesome 관련 import
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 
 // jQuery 전역 등록
