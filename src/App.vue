@@ -1,7 +1,11 @@
 
 
 <template>
-	
+	<FontAwesomeIcon :icon="faVuejs" style="color: rgb(99, 230, 190);" />
+	ad
+	<FontAwesomeIcon :icon="faUser" style="color: rgb(99, 230, 190);" />
+	a
+	<i class="fa-solid fa-user" style="color: rgb(99, 230, 190);"></i>
 			<div id="wrapper" class="divided">
 
 				
@@ -9,66 +13,54 @@
 						<div class="inner">
 							<h2>Portfolio</h2>
 							<p>This is an <strong>Items</strong> element, and it's basically just a grid for organizing items of various types. You can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-items">details</a>).</p>
-							<div class="items style2 small onscroll-fade-in">
+							<div class="items style1 small onscroll-fade-in">
 								<section>
-									<span class="icon style2 major fa-gem"></span>
-									<h3>One</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+									<span class="icon  major fa-gem"></span>
+									<h3></h3>
 								</section>
 								<section>
 									<span class="icon solid style2 major fa-save"></span>
 									<h3>Two</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
 									<span class="icon solid style2 major fa-chart-bar"></span>
 									<h3>Three</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
 									<span class="icon solid style2 major fa-wifi"></span>
 									<h3>Four</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
 									<span class="icon solid style2 major fa-cog"></span>
 									<h3>Five</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
 									<span class="icon style2 major fa-paper-plane"></span>
 									<h3>Six</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
 									<span class="icon solid style2 major fa-desktop"></span>
 									<h3>Seven</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
 									<span class="icon solid style2 major fa-sync-alt"></span>
 									<h3>Eight</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
 									<span class="icon solid style2 major fa-hashtag"></span>
 									<h3>Nine</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
 									<span class="icon solid style2 major fa-bolt"></span>
 									<h3>Ten</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
 									<span class="icon style2 major fa-envelope"></span>
 									<h3>Eleven</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
 									<span class="icon solid style2 major fa-leaf"></span>
 									<h3>Twelve</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 							</div>
 						</div>
@@ -121,10 +113,17 @@
 </template>
 
 <script setup>
+
 import { ref, onMounted } from 'vue'
 import $ from 'jquery'
 import './assets/css/main.css'
 import './assets/css/noscript.css'
+import './assets/css/fontawesome-all.min.css'
+// Font Awesome 관련 import
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+
 // jQuery 전역 등록
 window.$ = window.jQuery = $
 
@@ -140,7 +139,6 @@ const loadScript = (src) => {
   })
 }
 
-
 onMounted(async () => {
   await import('bootstrap')
   await loadScript('/assets/vendor/jquery.min.js')
@@ -148,11 +146,15 @@ onMounted(async () => {
   await loadScript('/assets/vendor/jquery.scrolly.min.js')
   await loadScript('/assets/vendor/browser.min.js')
   await loadScript('/assets/vendor/breakpoints.min.js')
-  await loadScript('/assets/core/util.js')
-  await loadScript('/assets/core/main.js')
-  await loadScript('/assets/core/demo.js')
+  await loadScript('/assets/template/util.js')
+  await loadScript('/assets/template/main.js')
+  await loadScript('/assets/template/demo.js')
 })
+
+
+
 </script>
+
 
 
 <style scoped>
