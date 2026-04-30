@@ -21,21 +21,20 @@ import App from "./App.vue";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 
+//FontAwesome 추가
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { faDoorOpen } from "@fortawesome/free-solid-svg-icons";
-import { faSquarePlus } from "@fortawesome/free-solid-svg-icons";
-
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+// bootstrap 추가
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 library.add(
-  faMagnifyingGlass,
-  faChevronLeft,
-  faBars,
-  faDoorOpen,
-  faSquarePlus
+  fas
+  , far
+  , fab
 );
 
 const app = createApp(App);
