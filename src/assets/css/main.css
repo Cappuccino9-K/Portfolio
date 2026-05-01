@@ -7,7 +7,10 @@
   height: 80px!important;
 }
 
-
+.text1 {
+	letter-spacing: 2px;
+	text-decoration : overline;
+}
 
 
 /*

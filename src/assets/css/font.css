@@ -1,0 +1,14 @@
+
+
+
+/* 1. 폰트 불러오기 */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 2. 전역 또는 특정 클래스에 적용 */
+.jost-font {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight는 100부터 900 사이에서 선택 가능합니다 (예: 400은 기본, 700은 굵게) */
+  font-weight: 400; 
+  font-style: normal;
+}

@@ -1,15 +1,26 @@
 
 
 <template>
-	
+			<section class="spotlight style1 orient-right image-position-center onscroll-image-fade-in" id="first">
+				<div class="content">
+				</div>
+				<div class="image w-100"    style="min-height: 600px; 
+            		background-image: url('/images/spotlight01.jpg'); 
+            		background-size: cover; 
+            		background-position: center;">
+					<!-- <img class="" src="/images/spotlight01.jpg" alt="" /> -->
+					<div class="text-white p-5">
+						<h2 class="jost-font text1">PORTFOLIO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+						<p>Write Code, Solve Problems, Make Impact.</p>
+					</div>
+						</div>
+			</section>
 
 			<div id="wrapper" class="divided">
 
 					<section class="wrapper style1 align-center">
 						<div class="inner">
-							<h2>Portfolio</h2>
-							<p>This is an <strong>Items</strong> element, and it's basically just a grid for organizing items of various types. You can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-items">details</a>).</p>
-							<div class="items style3 small onscroll-fade-in spec1">
+						<div class="items style3 small onscroll-fade-in spec1">
 								<section>
 									<span class="icon solid style2 major"></span>
 									<font-awesome-icon  icon="fa-brands fa-vuejs" size="2xl" style="color: rgb(99, 230, 190);" />
@@ -78,20 +89,13 @@
 						</div>
 					</section> -->
 
-				<!-- Spotlight -->
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
-						<div class="content">
-							<h2>Spotlight</h2>
-							<p>This is a <strong>Spotlight</strong> element, and it's generally used &ndash; as its name implies &ndash; to spotlight a particular feature, subject, or pretty much whatever. You can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).</p>
-							<ul class="actions stacked">
-								<li><a href="#" class="button">Learn More</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="/images/spotlight01.jpg" alt="" />
-						</div>
-					</section>
-
+			<section class="spotlight style1 orient-right image-position-center onscroll-image-fade-in" id="first">
+				<div class="content">
+				</div>
+				<div class="image w-100">
+					<img src="/images/spotlight01.jpg" alt="" />
+				</div>
+			</section>
 				<!-- Spotlight -->
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
@@ -115,6 +119,7 @@ import { ref, onMounted } from 'vue'
 import $ from 'jquery'
 import './assets/css/main.css'
 import './assets/css/noscript.css'
+import './assets/css/font.css'
 
 
 // jQuery 전역 등록
