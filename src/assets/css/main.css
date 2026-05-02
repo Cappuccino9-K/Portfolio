@@ -2,14 +2,59 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
 
 
+.background1 {
+	background-image: url('/images/spotlight01.jpg'); 
+    background-size: cover; 
+    background-position: center;
+}
 
 .spec1 svg {
-  height: 80px!important;
+  	height: 80px!important;
 }
+
+.spec1 section {
+	max-width: 105px;
+	height: 110px!important;
+	background-color: white;
+	border-radius: 5px;
+	display: grid;
+	place-items: center; /* 수평/수직 정렬을 동시에 처리 */
+	padding:  0 0 0 0!important;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
 
 .text1 {
 	letter-spacing: 2px;
-	text-decoration : overline;
+	display: inline-block; /* 너비를 조절할 수 있게 설정 */
+    border-top: 5px solid WHITE; /* overline 대신 사용 */
+    padding-right: 60%; /* 원하는 만큼 빈 공간 확보 */
+    padding-top: 5px; /* 글자와 선 사이의 간격 조절 */
+}
+
+
+.text2 {
+	letter-spacing: 1.5px;
+	display: inline-block; /* 너비를 조절할 수 있게 설정 */
+    border-bottom: 5px solid BLACK; /* overline 대신 사용 */
+    padding-right: 85%; /* 원하는 만큼 빈 공간 확보 */
+    padding-bottom: 5px; /* 글자와 선 사이의 간격 조절 */
+}
+
+.text3 {
+	letter-spacing: 1.5px;
+	display: inline-block; /* 너비를 조절할 수 있게 설정 */
+    padding-right: 95%; /* 원하는 만큼 빈 공간 확보 */
+    padding-bottom: 5px; /* 글자와 선 사이의 간격 조절 */
+}
+
+.text4 {
+	letter-spacing: 1.5px;
+}
+
+.title{
+	margin-left: 10%;
+
 }
 
 
