@@ -16,7 +16,7 @@
 	max-width: 105px;
 	height: 110px!important;
 	background-color: white;
-	border-radius: 5px;
+	border-radius: 12px;
 	display: grid;
 	place-items: center; /* 수평/수직 정렬을 동시에 처리 */
 	padding:  0 0 0 0!important;
@@ -36,8 +36,7 @@
 .text2 {
 	letter-spacing: 1.5px;
 	display: inline-block; /* 너비를 조절할 수 있게 설정 */
-    border-bottom: 5px solid BLACK; /* overline 대신 사용 */
-    padding-right: 85%; /* 원하는 만큼 빈 공간 확보 */
+    border-bottom: 4px solid BLACK; /* overline 대신 사용 */
     padding-bottom: 5px; /* 글자와 선 사이의 간격 조절 */
 }
 
