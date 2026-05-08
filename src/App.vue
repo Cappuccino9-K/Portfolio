@@ -232,18 +232,7 @@
 						</div>
 						<div class="row d-block d-flex justify-content-center title pb-5 items small onscroll-fade-in">
 							<div class="Scriptcontent w-75 mt-3">
-								<div class="step">
-									<div>
-										<div class="circle">1</div>
-									</div>
-									<div>
-										<div class="title mx-3">2025.08 ~ 2025.10 효성ITX㈜</div>
-										<div class="caption">
-											- 2개월 계약직<br/>
-											- 고객지원팀 · 사원 · 전화상담
-										</div>
-									</div>
-								</div>
+						
 
 								<div class="step step-active">
 									<div>
@@ -269,150 +258,62 @@
 			
 
 					
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in ">
 						<div class="content">
+							<div class="items small onscroll-fade-in">
 								<div class="row">
-									<h3 class="jost-font2 text3 pb-2"> PROJECT 01</h3>
+									<h3 class="jost-font2 text3 pb-2">PROJECT&nbsp;01</h3>
 								</div>
-
-								<div class="row d-block d-flex justify-content-center title pb-5 ">
-							<div class="w-100 row items small onscroll-fade-in gap-xl-2 mt-3">
-
-								<div class="card border-0 col-4 col-md-2 card2">
-									<div class="d-flex justify-content-between gap-2 my-2">
-										<div class="d-flex align-items-center justify-content-center" style="width: 20px; min-height: 20px;">
-											<font-awesome-icon class="" icon="fa-solid fa-id-badge" size="xl" />
-										</div>
-										<div class="row">
-											<span class="fw-bold text-end">이름</span>
-											<span class="text-muted text-end">권영준</span>
-										</div>
-									</div>
+								<div class="d-flex justify-content-start">
+									<span class="border title3 text-dark px-2 py-1">BENEDU</span>
+									<span class="text-muted ms-2 my-auto">2024.12.20~2025.07.01</span>
 								</div>
-								<div class="card border-0 col-4 col-md-2 card2">
-									<div class="d-flex justify-content-between my-2 ">
-										<div class="d-flex align-items-center justify-content-center" style="width: 20px; min-height: 20px;">
-											<font-awesome-icon icon="fa-solid fa-cake-candles" size="xl" />
-										</div>
-										<div class="row">
-											<span class="fw-bold text-end">생년월일</span>
-											<span class="text-muted text-end">1999.12.23</span>
-										</div>
-									</div>
+								<hr/>
+								<div class="">
+									<span class="">디미고 학생 자기주도학습 프로그램</span><br/>
+									<span class="">참여인원 : 3<small class="">人</small></span><br/>
+									<span class="content1">- <span class="fw-bold">반응형 UI 설계 : </span>부트스트랩 그리드 시스템을 활용하여 기기별 가독성을 확보한 PC·태블릿·모바일 3단 대응 레이아웃 구현</span><br/>
+									<span class="content1">- <span class="fw-bold">다크모드 도입 : </span>CSS 변수와 테마 확장 기능을 통해 사용자 시력 보호를 위한 최적화된 다크모드 환경 구축</span><br/>
+									<span class="content1">- <span class="fw-bold">성능 최적화 : </span>커스텀 빌드 및 코드 압축을 통한 라이브러리 경량화로 프런트엔드 렌더링 속도 2배 향상</span>
 								</div>
-								<div class="card border-0 col-4 col-md-2 card2">
-									<div class="d-flex justify-content-between gap-2 my-2">
-										<div class="d-flex align-items-center justify-content-center" style="width: 20px; min-height: 20px;">
-											<font-awesome-icon icon="fa-solid fa-phone" size="xl" />
-										</div>
-										<div class="row">
-											<span class="fw-bold text-end">연락처</span>
-											<span class="text-muted text-end">010-4909-6160</span>
-										</div>
-									</div>
-								</div>
-								<div class="card border-0 col-6 col-md-4 card2">
-									<div class="d-flex justify-content-between gap-2 my-2">
-										<div class="d-flex align-items-center justify-content-center" style="width: 20px; min-height: 20px;">
-											<font-awesome-icon icon="fa-solid fa-envelope" size="xl" />
-										</div>
-										<div class="row">
-											<span class="fw-bold text-end">E-mail</span>
-											<span class="text-muted text-end">jun991223@gmail.com</span>
-										</div>
-									</div>
-								</div>
-								<div class="card border-0 col-6 col-md-2 card2">
-									<div class="d-flex justify-content-between gap-2 my-2">
-										<div class="d-flex align-items-center justify-content-center" style="width: 20px; min-height: 20px;">
-											<font-awesome-icon icon="fa-solid fa-location-dot" size="xl" />
-										</div>
-										<div class="row">
-											<span class="fw-bold text-end">위치</span>
-											<span class="text-muted text-end">서울특별시 은평구 </span>
-										</div>
-									</div>
-								</div>
-								
 							</div>
 						</div>
-						</div>
 						<div class="image">
-							<img src="/images/spotlight02.jpg" alt="" />
+							<img src="/images/project/BENEDU2.png" alt="" style="background-size: contain;" />
 						</div>
 					</section>
 
 
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
+							<div class="items small onscroll-fade-in">
 								<div class="row">
-									<h3 class="jost-font2 text3 pb-2">PROJECT 02</h3>
+									<h3 class="jost-font2 text3 pb-2">PROJECT&nbsp;02</h3>
 								</div>
+								<div class="d-flex justify-content-start">
+									<span class="border title3 text-dark px-2 py-1">BIKESTORY</span>
+									<span class="text-muted ms-2 my-auto">2023.11.12~2024.02.15</span>
+								</div>
+								<hr/>
+								<div class="">
+									<span class="">자전거 여행 계획 및 동행 모집 플랫폼</span><br/>
+									<span class="">참여인원 : 1<small class="">人</small></span><br/>
+									<span class="content1">
+										- <span class="fw-bold">React 기반 UI 구축 : </span>React 프레임워크를 활용하여 반응형 웹 인터페이스를 설계하고, 컴포넌트 기반의 효율적인 프론트엔드 아키텍처 구현
+									</span><br/>
 
-								<div class="row d-block d-flex justify-content-center title pb-5 ">
-							<div class="w-100 row items small onscroll-fade-in gap-xl-2 mt-3">
+									<span class="content1">
+										- <span class="fw-bold">데이터 액세스 계층 설계 : </span>MyBatis를 사용하여 SQL과 비즈니스 로직을 분리하고, 안정적인 CRUD 기능을 갖춘 게시판 모듈 및 데이터 관리 시스템 구축
+									</span><br/>
 
-								<div class="card border-0 col-4 col-md-2 card2">
-									<div class="d-flex justify-content-between gap-2 my-2">
-										<div class="d-flex align-items-center justify-content-center" style="width: 20px; min-height: 20px;">
-											<font-awesome-icon class="" icon="fa-solid fa-id-badge" size="xl" />
-										</div>
-										<div class="row">
-											<span class="fw-bold text-end">이름</span>
-											<span class="text-muted text-end">권영준</span>
-										</div>
-									</div>
+									<span class="content1">
+										- <span class="fw-bold">코드 품질 및 정적 분석 : </span>SonarQube를 도입하여 코드 가독성을 높이고 잠재적 보안 취약점과 코드 스멜을 제거하여 소프트웨어 신뢰성 최적화
+									</span>
 								</div>
-								<div class="card border-0 col-4 col-md-2 card2">
-									<div class="d-flex justify-content-between my-2 ">
-										<div class="d-flex align-items-center justify-content-center" style="width: 20px; min-height: 20px;">
-											<font-awesome-icon icon="fa-solid fa-cake-candles" size="xl" />
-										</div>
-										<div class="row">
-											<span class="fw-bold text-end">생년월일</span>
-											<span class="text-muted text-end">1999.12.23</span>
-										</div>
-									</div>
-								</div>
-								<div class="card border-0 col-4 col-md-2 card2">
-									<div class="d-flex justify-content-between gap-2 my-2">
-										<div class="d-flex align-items-center justify-content-center" style="width: 20px; min-height: 20px;">
-											<font-awesome-icon icon="fa-solid fa-phone" size="xl" />
-										</div>
-										<div class="row">
-											<span class="fw-bold text-end">연락처</span>
-											<span class="text-muted text-end">010-4909-6160</span>
-										</div>
-									</div>
-								</div>
-								<div class="card border-0 col-6 col-md-4 card2">
-									<div class="d-flex justify-content-between gap-2 my-2">
-										<div class="d-flex align-items-center justify-content-center" style="width: 20px; min-height: 20px;">
-											<font-awesome-icon icon="fa-solid fa-envelope" size="xl" />
-										</div>
-										<div class="row">
-											<span class="fw-bold text-end">E-mail</span>
-											<span class="text-muted text-end">jun991223@gmail.com</span>
-										</div>
-									</div>
-								</div>
-								<div class="card border-0 col-6 col-md-2 card2">
-									<div class="d-flex justify-content-between gap-2 my-2">
-										<div class="d-flex align-items-center justify-content-center" style="width: 20px; min-height: 20px;">
-											<font-awesome-icon icon="fa-solid fa-location-dot" size="xl" />
-										</div>
-										<div class="row">
-											<span class="fw-bold text-end">위치</span>
-											<span class="text-muted text-end">서울특별시 은평구 </span>
-										</div>
-									</div>
-								</div>
-								
 							</div>
 						</div>
-						</div>
 						<div class="image">
-							<img src="/images/spotlight02.jpg" alt="" />
+							<img src="/images/project/BIKESTORY.png" alt="" />
 						</div>
 					</section>
 				
@@ -420,7 +321,7 @@
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
 								<div class="row">
-									<h3 class="jost-font2 text3 pb-2"><font-awesome-icon icon="fa-solid fa-address-card" /> PROFILE</h3>
+									<h3 class="jost-font2 text3 pb-2">PROFILE</h3>
 								</div>
 
 								<div class="row d-block d-flex justify-content-center title pb-5 ">
