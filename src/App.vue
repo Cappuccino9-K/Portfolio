@@ -319,30 +319,8 @@
 				
 				
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content py-4 row gap-0 gap-lg-2">
-								<div class="card border-0 col-4 col-md-2 card2 card2-1">
-									<div class="d-flex justify-content-between gap-2 my-2">
-										<div class="d-flex align-items-center justify-content-center" style="width: 20px; min-height: 20px;">
-											<font-awesome-icon class="" icon="fa-solid fa-id-badge" size="xl" />
-										</div>
-										<div class="row">
-											<span class="fw-bold text-end">이름</span>
-											<span class="text-muted text-end">권영준</span>
-										</div>
-									</div>
-								</div>
-								<div class="card border-0 col-4 col-md-2 card2 card2-1">
-									<div class="d-flex justify-content-between my-2 ">
-										<div class="d-flex align-items-center justify-content-center" style="width: 20px; min-height: 20px;">
-											<font-awesome-icon icon="fa-solid fa-cake-candles" size="xl" />
-										</div>
-										<div class="row">
-											<span class="fw-bold text-end">생년월일</span>
-											<span class="text-muted text-end">1999.12.23</span>
-										</div>
-									</div>
-								</div>
-								<div class="card border-0 col-4 col-md-2 card2 card2-2">
+						<div class="content py-4 row gap-0 gap-lg-2 d-flex justify-content-center">
+								<div class="border-0 col-6 col-md-4 card2 card2-2">
 									<div class="d-flex justify-content-between gap-2 my-2">
 										<div class="d-flex align-items-center justify-content-center" style="width: 20px; min-height: 20px;">
 											<font-awesome-icon icon="fa-solid fa-phone" size="xl" />
@@ -353,7 +331,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="card border-0 col-6 col-md-4 card2 card2-3">
+								<div class="border-0 col-6 col-md-4 card2 card2-3">
 									<div class="d-flex justify-content-between gap-2 my-2">
 										<div class="d-flex align-items-center justify-content-center me-3" style="width: 20px; min-height: 20px;">
 											<font-awesome-icon icon="fa-solid fa-envelope" size="xl" />
@@ -364,7 +342,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="card border-0 col-6 col-md-2 card2 card2-2">
+								<div class="border-0 col-6 col-md-4 card2 card2-2">
 									<div class="d-flex justify-content-between gap-2 my-2 ">
 										<div class="d-flex align-items-center justify-content-center " style="width: 20px; min-height: 20px;">
 											<font-awesome-icon icon="fa-solid fa-location-dot" size="xl" />
@@ -393,6 +371,7 @@ import $ from 'jquery'
 import './assets/css/main.css'
 import './assets/css/noscript.css'
 import './assets/css/font.css'
+import './assets/css/animation.css'
 
 
 // jQuery 전역 등록

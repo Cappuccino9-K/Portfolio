@@ -1,0 +1,23 @@
+
+
+.text1::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5px; 
+    background-color: white; 
+    
+    width: 0; 
+    animation: drawLine 0.4s ease-out forwards; 
+}
+
+
+@keyframes drawLine {
+    from {
+        width: 0; 
+    }
+    to {
+        width: 100%; 
+    }
+}

@@ -56,10 +56,11 @@
 
 .text1 {
 	letter-spacing: 2px;
-	display: inline-block; /* 너비를 조절할 수 있게 설정 */
-    border-top: 5px solid WHITE; /* overline 대신 사용 */
-    padding-right: 60%; /* 원하는 만큼 빈 공간 확보 */
-    padding-top: 5px; /* 글자와 선 사이의 간격 조절 */
+    display: inline-block; 
+    /* border-top: 5px solid WHITE; */
+    padding-right: 60%; 
+    padding-top: 15px;
+    position: relative;
 }
 
 
