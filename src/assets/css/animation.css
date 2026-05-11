@@ -21,3 +21,106 @@
         width: 100%; 
     }
 }
+
+
+
+
+
+.typing-effect {
+    overflow: hidden;
+    white-space: nowrap; 
+    border-right: 2px solid white; 
+    width: 0; 
+    
+    animation: 
+        typing 2.5s steps(40, end) forwards,
+        blink 0.8s step-end 5 forwards;
+}
+
+/* 타이핑 애니메이션 (넓이를 늘려가며 글자를 보여줌) */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 36ch; } 
+}
+
+/* 커서 깜빡임 애니메이션 */
+@keyframes blink {
+    from, to { border-color: transparent; }
+    50% { border-color: white; }
+}
+
+
+
+.animate-flow {
+    opacity: 0; /* 시작 전엔 투명하게 */
+  /* 애니메이션 두 개를 연결: fadeIn(5초 대기 후 시작) + flowDown(6초 대기 후 무한반복) */
+  animation: 
+    fadeInOnly 1s ease-out forwards 5s, 
+    flowDown 2s ease-in-out infinite 6s;
+  animation-delay: 6s; 
+}
+
+
+@keyframes flowDown {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeInOnly {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+.reveal-effect {
+    opacity: 0; 
+    animation: fadeInUp 0.8s ease-out forwards;
+    animation-delay: 1s; 
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px); /* 30px 아래에서 시작 */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);    /* 제자리로 이동 */
+    }
+}
+
+/* 내부 section 기본 상태 */
+.reveal-effect section {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: itemFadeIn 0.5s ease-out forwards;
+}
+
+.reveal-effect section:nth-child(1) { animation-delay: 3.0s; }
+.reveal-effect section:nth-child(2) { animation-delay: 3.2s; }
+.reveal-effect section:nth-child(3) { animation-delay: 3.4s; }
+.reveal-effect section:nth-child(4) { animation-delay: 3.6s; }
+.reveal-effect section:nth-child(5) { animation-delay: 3.8s; }
+.reveal-effect section:nth-child(6) { animation-delay: 4.0s; }
+.reveal-effect section:nth-child(7) { animation-delay: 4.2s; }
+.reveal-effect section:nth-child(8) { animation-delay: 4.4s; }
+.reveal-effect section:nth-child(9) { animation-delay: 4.6s; }
+.reveal-effect section:nth-child(10) { animation-delay: 4.8s; }
+.reveal-effect section:nth-child(11) { animation-delay: 5.0s; }
+.reveal-effect section:nth-child(12) { animation-delay: 5.2s; }
+
+@keyframes itemFadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

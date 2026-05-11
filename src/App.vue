@@ -9,11 +9,11 @@
 				<div class="w-100"> 
 					<div class="text-white p-5 d-block d-xl-none">
 						<h2 class="jost-font text1">PORTFOLIO</h2>
-						<p>Write Code, Solve Problems, Make Impact.</p>
+						<p class="typing-effect">Write Code, Solve Problems, Make Impact.</p>
 					</div>
-					<div class="title text-white p-5 d-none d-xl-block">
+					<div class="text-white p-5 d-none d-xl-block">
 						<h2 class="jost-font text1">PORTFOLIO</h2>
-						<p>Write Code, Solve Problems, Make Impact.</p>
+						<p class="typing-effect">Write Code, Solve Problems, Make Impact.</p>
 					</div>
 				</div>
 			</section>
@@ -61,7 +61,7 @@
 
 			
 					
-				<div class="items style3 small onscroll-fade-in spec1  gap-2 py-5">
+				<div id="skill" class="items style3 small spec1 gap-2 py-5 reveal-effect">
 					<section class="">
 						<font-awesome-icon icon="fa-brands fa-vuejs" size="2xl" style="color: rgb(99, 230, 190); width:55px; " />
 					</section>
@@ -112,7 +112,7 @@
 					
 				
 				<div class="d-flex justify-content-center pb-5">
-					<font-awesome-icon icon="fa-solid fa-chevron-down" style="color: rgb(116, 192, 252);" />
+					<font-awesome-icon class="animate-flow" icon="fa-solid fa-chevron-down" style="color: rgb(116, 192, 252);" />
 				</div>
 		</div>
 
@@ -372,17 +372,20 @@ import './assets/css/main.css'
 import './assets/css/noscript.css'
 import './assets/css/font.css'
 import './assets/css/animation.css'
+import { initSkillAnimation } from '@/controllers/animation' // 경로 확인
+
 
 
 // jQuery 전역 등록
 window.$ = window.jQuery = $
 
-const message = ref('Hello, World!')
+// const message = ref('Hello, World!')
 
 const loadScript = (src) => {
   return new Promise((resolve, reject) => {
     const script = document.createElement('script')
     script.src = src
+	script.async = false; // 실행 순서 보장을 위해 async를 false로 설정하는 것이 안전할 수 있음
     script.onload = resolve
     script.onerror = reject
     document.body.appendChild(script)
@@ -399,6 +402,7 @@ onMounted(async () => {
   await loadScript('/assets/template/util.js')
   await loadScript('/assets/template/main.js')
   await loadScript('/assets/template/demo.js')
+  initSkillAnimation();
 })
 
 
