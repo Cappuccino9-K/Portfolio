@@ -269,12 +269,15 @@
 									<span class="text-muted ms-2 my-auto">2024.12.20~2025.07.01</span>
 								</div>
 								<hr/>
-								<div class="">
+								<div class="description">
 									<span class="">디미고 학생 자기주도학습 프로그램</span><br/>
 									<span class="">참여인원 : 3<small class="">人</small></span><br/>
 									<span class="content1">- <span class="fw-bold">반응형 UI 설계 : </span>부트스트랩 그리드 시스템을 활용하여 기기별 가독성을 확보한 PC·태블릿·모바일 3단 대응 레이아웃 구현</span><br/>
 									<span class="content1">- <span class="fw-bold">다크모드 도입 : </span>CSS 변수와 테마 확장 기능을 통해 사용자 시력 보호를 위한 최적화된 다크모드 환경 구축</span><br/>
 									<span class="content1">- <span class="fw-bold">성능 최적화 : </span>커스텀 빌드 및 코드 압축을 통한 라이브러리 경량화로 프런트엔드 렌더링 속도 2배 향상</span>
+								</div>
+								<div class="d-md-none d-block">
+									<div class="mb-4"></div>
 								</div>
 							</div>
 						</div>
@@ -295,7 +298,7 @@
 									<span class="text-muted ms-2 my-auto">2023.11.12~2024.02.15</span>
 								</div>
 								<hr/>
-								<div class="">
+								<div class="description">
 									<span class="">자전거 여행 계획 및 동행 모집 플랫폼</span><br/>
 									<span class="">참여인원 : 1<small class="">人</small></span><br/>
 									<span class="content1">
@@ -309,6 +312,9 @@
 									<span class="content1">
 										- <span class="fw-bold">코드 품질 및 정적 분석 : </span>SonarQube를 도입하여 코드 가독성을 높이고 잠재적 보안 취약점과 코드 스멜을 제거하여 소프트웨어 신뢰성 최적화
 									</span>
+									<div class="d-md-none d-block">
+										<div class="mb-4"></div>
+									</div>
 								</div>
 							</div>
 						</div>

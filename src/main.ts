@@ -28,7 +28,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 // bootstrap 추가
-import 'bootstrap'
+// import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 library.add(
