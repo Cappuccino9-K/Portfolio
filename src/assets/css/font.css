@@ -19,13 +19,14 @@
   font-style: normal;
 }
 
-
 .noto-sans-kr-1 {
   font-family: "Noto Sans KR", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
+
+
 
 @font-face {
     font-family: 'Pretendard';
@@ -34,9 +35,6 @@
     font-display: swap;
 }
 
-
-
-
 .card{
     font-family: 'Pretendard', sans-serif;
 }
@@ -44,3 +42,5 @@
 .description {
     font-family: 'Pretendard', sans-serif;
 }
+
+

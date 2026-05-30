@@ -24,11 +24,11 @@
 								<h2 class="text4">안녕하세요</h2>
 							</div>	
 							<div class="d-flex justify-content-center text-white noto-sans-kr-1">
-								<h2 class="text4">책임감을 가지고 일하는 웹 개발자</h2>
+								<h2 class="text4">프론트엔드 개발자 <h2 class="text4"><span class="text-info">&nbsp;권영준</span>입니다</h2></h2>
 							</div>	
-							<div class="d-flex justify-content-center text-white noto-sans-kr-1">
+							<!-- <div class="d-flex justify-content-center text-white noto-sans-kr-1">
 								<h2 class="text4"><span class="text-info">권영준</span>입니다</h2>
-							</div>	
+							</div>	 -->
 						</div>
 					</div>
 				</div>
@@ -39,11 +39,11 @@
 								<h2 class="text4">안녕하세요</h2>
 							</div>	
 							<div class="d-flex justify-content-center text-white noto-sans-kr-1">
-								<h2 class="text4">책임감을 가지고 일하는 웹 개발자</h2>
+								<h2 class="text4">프론트엔드 개발자 <h2 class="text4"><span class="text-info">&nbsp;권영준</span>입니다</h2></h2>
 							</div>	
-							<div class="d-flex justify-content-center text-white noto-sans-kr-1">
+							<!-- <div class="d-flex justify-content-center text-white noto-sans-kr-1">
 								<h2 class="text4"><span class="text-info">권영준</span>입니다</h2>
-							</div>	
+							</div>	 -->
 						</div>
 					</div>
 				</div>
@@ -121,7 +121,7 @@
 					<div class="p-5">
 					
 						<div class="row d-block d-flex justify-content-center title">
-							<h3 class="jost-font2 text2 w-75 text-start pb-1"><font-awesome-icon icon="fa-solid fa-certificate" /> CERTIFICATE</h3>
+							<h3 class="jost-font2 text2 w-75 text-start pb-1"> CERTIFICATE</h3>
 						</div>
 						<div class="row d-block d-flex justify-content-center title pb-5 ">
 							<div class="w-75 row items small onscroll-fade-in gap-2 mt-3">
@@ -179,7 +179,7 @@
 
 
 						<div class="row d-block d-flex justify-content-center title">
-							<h3 class="jost-font2 text2 w-75 text-end pb-1"><font-awesome-icon icon="fa-solid fa-user-graduate" /> EDUCATION</h3>
+							<h3 class="jost-font2 text2 w-75 text-end pb-1">EDUCATION</h3>
 						</div>
 						<div class="row d-block d-flex justify-content-center title pb-5 ">
 							<div class="row d-block d-flex justify-content-center title pb-5 items small onscroll-fade-in">
@@ -228,7 +228,7 @@
 						</div>
 					
 						<div class="row d-block d-flex justify-content-center title">
-							<h3 class="jost-font2 text2 w-75 text-start pb-1"><font-awesome-icon icon="fa-solid fa-stairs" /> CAREER</h3>
+							<h3 class="jost-font2 text2 w-75 text-start pb-1">CAREER</h3>
 						</div>
 						<div class="row d-block d-flex justify-content-center title pb-5 items small onscroll-fade-in">
 							<div class="Scriptcontent w-75 mt-3">
