@@ -26,9 +26,7 @@
 							<div class="d-flex justify-content-center text-white noto-sans-kr-1">
 								<h2 class="text4">프론트엔드 개발자 <h2 class="text4"><span class="text-info">&nbsp;권영준</span>입니다</h2></h2>
 							</div>	
-							<!-- <div class="d-flex justify-content-center text-white noto-sans-kr-1">
-								<h2 class="text4"><span class="text-info">권영준</span>입니다</h2>
-							</div>	 -->
+						
 						</div>
 					</div>
 				</div>
@@ -41,9 +39,7 @@
 							<div class="d-flex justify-content-center text-white noto-sans-kr-1">
 								<h2 class="text4">프론트엔드 개발자 <h2 class="text4"><span class="text-info">&nbsp;권영준</span>입니다</h2></h2>
 							</div>	
-							<!-- <div class="d-flex justify-content-center text-white noto-sans-kr-1">
-								<h2 class="text4"><span class="text-info">권영준</span>입니다</h2>
-							</div>	 -->
+						
 						</div>
 					</div>
 				</div>
@@ -415,9 +411,3 @@ onMounted(async () => {
 
 </script>
 
-
-<!-- 
-<style scoped>
-@import 'bootstrap/dist/css/bootstrap.min.css';
-
-</style> -->
